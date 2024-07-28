@@ -114,7 +114,7 @@ function operationSelect(operation) {
                 num2 = num2.slice(0, num2.length-1);
                 updateDisplay(num2)
                 break;
-            case 'first':
+            case 'third':
                 operator = operator.slice(0, operator.length-1);
                 updateDisplay(operator)
                 break;
