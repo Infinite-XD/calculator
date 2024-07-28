@@ -124,6 +124,7 @@ function operationSelect(operation) {
         num1 = '';
         num2 = '';
         operator = '';
+        displayDiv.removeChild(rickRoll);
         bottomDiv.removeEventListener('click', operationSelect);
         updateDisplay(num1)
         switchFunction('first');
